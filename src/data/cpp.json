@@ -1,36 +1,42 @@
 {
-    "id": 1,
-    "name": "JS Based Quiz",
+    "id": 2,
+    "name": "C++",
     "description": "MCQs",
+    "config": {
+        "shuffleQuestions": true,
+        "showPager": false,
+        "allowBack": true,
+        "autoMove": true
+    },
     "questions": [
         {
             "id": 1010,
-            "name": "Which type of JavaScript language is ___",
+            "name": "Choose the respective delete operator usage for the expression ‘ptr=new int[100]’.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Object-Oriented",
+                    "name": "delete ptr;",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Object-Based",
-                    "isAnswer": true
+                    "name": "delete ptr[];",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Assembly-language",
+                    "name": "delete[] ptr[];",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
-                    "isAnswer": false
+                    "name": "delete[] ptr;",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -41,31 +47,37 @@
         },
         {
             "id": 1011,
-            "name": "Which one of the following also known as Conditional Expression:",
+            "name": "Pick up the valid declaration for overloading ++ in postfix form where T is the class name.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Alternative to if-else",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "Switch statement",
+                    "name": "T operator++();",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "immediate if",
+                    "name": "T operator++(int);",
                     "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "T& operator++();",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "If-then-else statement",
+                    "name": "T& operator++(int);",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "T& operator(int)++;",
                     "isAnswer": false
                 }
             ],
@@ -77,31 +89,31 @@
         },
         {
             "id": 1012,
-            "name": "In JavaScript, what is a block of statement?",
+            "name": "How can we make an class act as an interface in C++?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "block that combines a number of statements into a single compound statement",
-                    "isAnswer": true
+                    "name": "Defining the class following with the keyword virtual",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "both conditional block and a single statement",
-                    "isAnswer": false
+                    "name": "By only providing all the functions as virtual functions in the class.",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "block that contains a single statement",
+                    "name": "Defining the class following with the keyword interface",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Conditional block",
+                    "name": "Defining the class following with the keyword abstract",
                     "isAnswer": false
                 }
             ],
@@ -113,31 +125,31 @@
         },
         {
             "id": 1013,
-            "name": "What is TypeScript?",
+            "name": "Which of the following is the correct syntax of including a user defined header files in C++?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "A Language based on Javascript",
-                    "isAnswer": true
+                    "name": "#include <userdefined.h>",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "script that runs on browser",
+                    "name": "#include <userdefined>",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "A DataType Collection of Javascript",
-                    "isAnswer": false
+                    "name": "#include “userdefined”",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
+                    "name": "#include [userdefined]",
                     "isAnswer": false
                 }
             ],
@@ -149,32 +161,32 @@
         },
         {
             "id": 1014,
-            "name": "When interpreter encounters an empty statements, what it will do:",
+            "name": "Which of the following is a correct identifier in C++?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Shows a warning",
-                    "isAnswer": false
+                    "name": "$var_name",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Prompts to complete the statement",
+                    "name": "VAR_1234",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Throws an error",
+                    "name": "7VARNAME",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Ignores the statements",
-                    "isAnswer": true
+                    "name": "7var_name",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
@@ -185,61 +197,25 @@
         },
         {
             "id": 1015,
-            "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "name": "Which of the following is called address operator?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Generator Functions",
+                    "name": "$",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Arrow Functions",
-                    "isAnswer": false
+                    "name": "*",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Template Strings",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "Set Data Structure",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1016,
-            "name": "Which of the following variables takes precedence over the others if the names are the same?",
-            "questionTypeId": 1,
-            "options": [
-                {
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "Global variable",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "The local element",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "The two of the above",
+                    "name": "_",
                     "isAnswer": false
                 },
                 {
@@ -256,32 +232,68 @@
             }
         },
         {
-            "id": 1017,
-            "name": "What is the difference between == and === ?",
+            "id": 1016,
+            "name": "What are the actual parameters in C++?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "=== throws syntex error",
+                    "name": "Parameters which are used in the definition of a function",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "== checks values only, === checks types as well",
+                    "name": "Parameters with which functions are called",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "=== is reference type check only",
+                    "name": "Variables other than passed parameters in a function",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Both are same",
+                    "name": "Variables that are never used in the function",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "What are the formal parameters in C++?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Parameters with which functions are called",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Parameters which are used in the definition of the function",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Variables other than passed parameters in a function",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Variables that are never used in the function",
                     "isAnswer": false
                 }
             ],
@@ -293,31 +305,31 @@
         },
         {
             "id": 1018,
-            "name": "Which one of the following is the correct way for calling the JavaScript code?",
+            "name": "Which function is used to read a single character from the console in C++?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Preprocessor",
+                    "name": "getline(ch)",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Triggering Event",
-                    "isAnswer": false
+                    "name": "cin.get(ch)",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Function/Method",
-                    "isAnswer": true
+                    "name": "scanf(ch)",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "RMI",
+                    "name": "read(ch)",
                     "isAnswer": false
                 }
             ],
@@ -329,31 +341,31 @@
         },
         {
             "id": 1019,
-            "name": "Which of the following type of a variable is volatile?",
+            "name": "Which function is used to write a single character to console in C++?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Mutable variable",
+                    "name": "cout.put(ch)",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Dynamic variable",
+                    "name": "cout.putline(ch)",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Volatile variable",
+                    "name": "write(ch)",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Immutable variable",
+                    "name": "printf(ch)",
                     "isAnswer": false
                 }
             ],

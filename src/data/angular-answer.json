@@ -1,29 +1,29 @@
 {
     "id": 1,
-    "name": "JS Based Quiz",
+    "name": "Angular Quiz",
     "description": "MCQs",
-    "questions": [
+    "answers": [
         {
             "id": 1010,
-            "name": "Which type of JavaScript language is ___",
+            "name": "Which community Angular JS belongs to?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Object-Oriented",
+                    "name": "Twitter",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Object-Based",
+                    "name": "Google",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Assembly-language",
+                    "name": "Microsoft",
                     "isAnswer": false
                 },
                 {
@@ -41,31 +41,31 @@
         },
         {
             "id": 1011,
-            "name": "Which one of the following also known as Conditional Expression:",
+            "name": "What is the correct syntax to write an expression?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Alternative to if-else",
+                    "name": "[expression]",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Switch statement",
+                    "name": "{expression}",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "immediate if",
+                    "name": "{{expression}}",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "If-then-else statement",
+                    "name": "None of the above",
                     "isAnswer": false
                 }
             ],
@@ -77,32 +77,32 @@
         },
         {
             "id": 1012,
-            "name": "In JavaScript, what is a block of statement?",
+            "name": "Which of the following can be used as a prefix for Directive?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "block that combines a number of statements into a single compound statement",
-                    "isAnswer": true
+                    "name": "ng-",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "both conditional block and a single statement",
+                    "name": "x-",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "block that contains a single statement",
+                    "name": "data-",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Conditional block",
-                    "isAnswer": false
+                    "name": "All of the above",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -113,25 +113,25 @@
         },
         {
             "id": 1013,
-            "name": "What is TypeScript?",
+            "name": "What does MVC stand for?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "A Language based on Javascript",
+                    "name": "Model View Controller",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "script that runs on browser",
+                    "name": "Maximum Virtual Control",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "A DataType Collection of Javascript",
+                    "name": "Microsoft Visual Core",
                     "isAnswer": false
                 },
                 {
@@ -149,31 +149,31 @@
         },
         {
             "id": 1014,
-            "name": "When interpreter encounters an empty statements, what it will do:",
+            "name": "Which directive is used to start an angularJS application?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Shows a warning",
+                    "name": "ng-init",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Prompts to complete the statement",
+                    "name": "ng-begin",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Throws an error",
+                    "name": "ng-start",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Ignores the statements",
+                    "name": "ng-app",
                     "isAnswer": true
                 }
             ],
@@ -185,31 +185,31 @@
         },
         {
             "id": 1015,
-            "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "name": "Which directive binds the values of application data to HTML input controls in angular JS?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Generator Functions",
+                    "name": "ng-app",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Arrow Functions",
+                    "name": "ng-bind",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Template Strings",
+                    "name": "ng-model",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Set Data Structure",
+                    "name": "None of the above",
                     "isAnswer": false
                 }
             ],
@@ -221,25 +221,25 @@
         },
         {
             "id": 1016,
-            "name": "Which of the following variables takes precedence over the others if the names are the same?",
+            "name": "Which directive binds Application data to HTML tags in angular JS?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Global variable",
+                    "name": "ng-app",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "The local element",
+                    "name": "ng-bind",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "The two of the above",
+                    "name": "ng-model",
                     "isAnswer": false
                 },
                 {
@@ -257,32 +257,32 @@
         },
         {
             "id": 1017,
-            "name": "What is the difference between == and === ?",
+            "name": "Which of the following is a filter in Angular Js?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "=== throws syntex error",
+                    "name": "Currency",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "== checks values only, === checks types as well",
+                    "name": "Date",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "=== is reference type check only",
+                    "name": "Uppercase",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Both are same",
-                    "isAnswer": false
+                    "name": "All of the above",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -293,31 +293,31 @@
         },
         {
             "id": 1018,
-            "name": "Which one of the following is the correct way for calling the JavaScript code?",
+            "name": "How to combine filter with expression?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Preprocessor",
+                    "name": "Using Comma {{expression, pipe}}",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Triggering Event",
+                    "name": "Using Dot {{expression. pipe}}",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Function/Method",
+                    "name": "Using PIpe {{expression | pipe}}",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "RMI",
+                    "name": "Using PIpe {{expression | pipe}}",
                     "isAnswer": false
                 }
             ],
@@ -329,31 +329,31 @@
         },
         {
             "id": 1019,
-            "name": "Which of the following type of a variable is volatile?",
+            "name": "What is data binding in angular JS?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Mutable variable",
+                    "name": "Synchronization between model part and view part",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Dynamic variable",
+                    "name": "Synchronization between controller part and view part",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Volatile variable",
+                    "name": "Synchronization between model part and controller part",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Immutable variable",
+                    "name": "None of the above",
                     "isAnswer": false
                 }
             ],
