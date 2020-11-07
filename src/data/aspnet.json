@@ -5,25 +5,25 @@
     "questions": [
         {
             "id": 1010,
-            "name": "ASP.NET webform separates the HTML output from program logic using a feature named as",
+            "name": "A web page has lots of input data, and you want the data input to be spread across multiple screens. What is the best control to implement this solution on a single Web page?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Exception",
+                    "name": "ImageMap",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Code-behind",
+                    "name": "Wizard",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Code-front",
+                    "name": "Panel",
                     "isAnswer": false
                 },
                 {
@@ -77,31 +77,31 @@
         },
         {
             "id": 1012,
-            "name": "What class does the ASP.NET Web Form class inherit from by default?",
+            "name": "What are the steps to create a DataTable programmatically?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "System.Web.UI.Page",
+                    "name": "Instantiate a new DataTable and add DataColumn objects to the DataTable. Columns Collection.",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "System.Web.UI.Form",
+                    "name": "Run the Data Source Configuration Wizard.",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "System.Web.GUI.Page",
+                    "name": "Instantiate a new DataSet object.",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "System.Web.Form",
+                    "name": "None of the above.",
                     "isAnswer": false
                 }
             ],
@@ -113,25 +113,29 @@
         },
         {
             "id": 1013,
-            "name": "What does MVC stand for?",
+            "name": "The three statements are given below about DataSet and DataReader, choose the correct option according to the statement.
+
+Statement 1: DataSet Provides Disconnected environment but DataReader provides Connected environment.
+Statement 2: DataSet Provides Connected environment but DataReader provides Disconnected environment.
+Statement 3: DataSet Can store multiple table simultaneously but DataReader Supports a single table based on a single SQL query.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Model View Controller",
+                    "name": "Statement 1 and 3 is correct.",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Maximum Virtual Control",
+                    "name": "Statement 2 and 3 is correct.",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Microsoft Visual Core",
+                    "name": "Statement 1 and 2 is correct.",
                     "isAnswer": false
                 },
                 {
@@ -149,31 +153,42 @@
         },
         {
             "id": 1014,
-            "name": "Which of the following does NOT require type casting?",
+            "name": "The following group profile properties defined under a group name in Web.config file. How will you access Street and City property?
+
+<properties>
+<group name="Address">
+<add name="Street" />
+<add name="City" />
+</group>
+</properties>",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Session",
+                    "name": "- Profile.name.Street
+ - Profile.name.City",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "TempData",
+                    "name": "- Address.Street
+ - Address.City",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "ViewData",
+                    "name": "- Address.Street.name
+ - Address.City.name",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "ViewBag",
+                    "name": "-Profile.Address.Street
+ - Profile.Address.City",
                     "isAnswer": true
                 }
             ],
@@ -185,25 +200,25 @@
         },
         {
             "id": 1015,
-            "name": "Which is the correct order of Page life-cycle in asp.net webform?",
+            "name": "Which control is required of every AJAX page to manage the JavaScript files sent to the client and the communication between client and server?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Init, PreRender, Load",
+                    "name": "UpdatePanel",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Load, PreRender, Init",
+                    "name": "AsyncPostBackTrigger",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Init, Load, PreRender",
+                    "name": "ScriptManager",
                     "isAnswer": true
                 },
                 {
@@ -221,32 +236,32 @@
         },
         {
             "id": 1016,
-            "name": "Which of these data source controls do not implement caching?",
+            "name": "The UpdatePanel supports two types of triggers: AsyncPostBackTrigger and PostBackTrigger. Choose the correct option regarding working of these triggers.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "ObjectDataSource",
+                    "name": "AsyncPostBackTrigger causes an asynchronous (Ajax) postback.",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "LinqDataSource",
-                    "isAnswer": true
+                    "name": "PostBackTrigger causes a normal entire-page postback.",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "SqlDataSource",
+                    "name": "AsyncPostBackTrigger causes a normal entire-page postback.",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "XmlDataSource",
-                    "isAnswer": false
+                    "name": "Option A and B are Correct.",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -257,32 +272,32 @@
         },
         {
             "id": 1017,
-            "name": "Which tag asp:Label control by default renders to?",
+            "name": "What is/are true about master page? Choose the correct option.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "div",
+                    "name": "You can add more than one master page in a website.",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "span",
-                    "isAnswer": true
+                    "name": "Master page can be nested.",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "body",
+                    "name": "ContentPlaceHolder control is required on a content page.",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "label",
-                    "isAnswer": false
+                    "name": "Both A and B options are correct.",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -293,32 +308,32 @@
         },
         {
             "id": 1018,
-            "name": "Which method do you use to explicitly kill a user's session?",
+            "name": "What is/are true about master page?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Session.Terminate()",
+                    "name": "Master page contains a <%@ Master %> directive instead of the normal <%@ Page %> directive.",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Session.TimeOut()",
+                    "name": "ContentPlaceHolder control can be added only on master page.",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Session.Abondon()",
-                    "isAnswer": true
+                    "name": " You can add as many ContentPlaceHolders to a Master Page as you need.",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Session.Kill()",
-                    "isAnswer": false
+                    "name": "All of the above.",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -329,31 +344,31 @@
         },
         {
             "id": 1019,
-            "name": "Which of the following object is ideal for keeping data alive for a single request?",
+            "name": "To implement a specified .NET Framework interface which directive is used?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "HttpContext",
+                    "name": "@Implements",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Session",
+                    "name": "@Control",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Cookies",
+                    "name": "@Reference",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "SqlServer",
+                    "name": "@Register",
                     "isAnswer": false
                 }
             ],
