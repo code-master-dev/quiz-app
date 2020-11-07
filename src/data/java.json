@@ -1,29 +1,29 @@
 {
     "id": 1,
-    "name": "JS Based Quiz",
+    "name": "Java Based Quiz",
     "description": "MCQs",
     "questions": [
         {
             "id": 1010,
-            "name": "Which type of JavaScript language is ___",
+            "name": "Which of the following option leads to the portability and security of Java?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Object-Oriented",
+                    "name": "The applet makes the Java code secure and portable",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Object-Based",
+                    "name": "Bytecode is executed by JVM",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Assembly-language",
+                    "name": "Use of exception handling",
                     "isAnswer": false
                 },
                 {
@@ -41,31 +41,31 @@
         },
         {
             "id": 1011,
-            "name": "Which one of the following also known as Conditional Expression:",
+            "name": "Which of the following is not a Java features?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Alternative to if-else",
+                    "name": "Dynamic",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Switch statement",
+                    "name": "Architecture Neutral",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "immediate if",
+                    "name": "Use of pointers",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "If-then-else statement",
+                    "name": "Object-oriented",
                     "isAnswer": false
                 }
             ],
@@ -77,31 +77,31 @@
         },
         {
             "id": 1012,
-            "name": "In JavaScript, what is a block of statement?",
+            "name": "The \u0021 article referred to as a",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "block that combines a number of statements into a single compound statement",
+                    "name": "Unicode escape sequence",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "both conditional block and a single statement",
+                    "name": "Octal escape",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "block that contains a single statement",
+                    "name": "Hexadecimal",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Conditional block",
+                    "name": "Line feed",
                     "isAnswer": false
                 }
             ],
@@ -113,32 +113,32 @@
         },
         {
             "id": 1013,
-            "name": "What is TypeScript?",
+            "name": " _____ is used to find and fix bugs in the Java programs.",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "A Language based on Javascript",
-                    "isAnswer": true
+                    "name": "JVM",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "script that runs on browser",
+                    "name": "JRE",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "A DataType Collection of Javascript",
+                    "name": "JDK",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
-                    "isAnswer": false
+                    "name": "JDB",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -149,32 +149,32 @@
         },
         {
             "id": 1014,
-            "name": "When interpreter encounters an empty statements, what it will do:",
+            "name": "What is the return type of the hashCode() method in the Object class?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Shows a warning",
+                    "name": "Object",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Prompts to complete the statement",
-                    "isAnswer": false
+                    "name": "int",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Throws an error",
+                    "name": "long",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Ignores the statements",
-                    "isAnswer": true
+                    "name": "void",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
@@ -185,32 +185,32 @@
         },
         {
             "id": 1015,
-            "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "name": "Which of the following is a valid long literal?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Generator Functions",
+                    "name": "ABH8097",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Arrow Functions",
+                    "name": "L990023",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Template Strings",
-                    "isAnswer": true
+                    "name": "904423",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Set Data Structure",
-                    "isAnswer": false
+                    "name": "0xnf029L",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -221,25 +221,25 @@
         },
         {
             "id": 1016,
-            "name": "Which of the following variables takes precedence over the others if the names are the same?",
+            "name": "What does the expression float a = 35 / 0 return?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Global variable",
+                    "name": "0",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "The local element",
+                    "name": "Infinity",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "The two of the above",
+                    "name": "Nan",
                     "isAnswer": false
                 },
                 {
@@ -264,13 +264,13 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "=== throws syntex error",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
                     "name": "== checks values only, === checks types as well",
-                    "isAnswer": true
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
@@ -293,31 +293,31 @@
         },
         {
             "id": 1018,
-            "name": "Which one of the following is the correct way for calling the JavaScript code?",
+            "name": "Evaluate the following Java expression, if x=3, y=5, and z=10:++z + y - y + z + x++",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Preprocessor",
+                    "name": "25",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Triggering Event",
+                    "name": "20",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Function/Method",
+                    "name": "24",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "RMI",
+                    "name": "26",
                     "isAnswer": false
                 }
             ],
@@ -329,31 +329,31 @@
         },
         {
             "id": 1019,
-            "name": "Which of the following type of a variable is volatile?",
+            "name": "Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Mutable variable",
-                    "isAnswer": true
+                    "name": "javap tool",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Dynamic variable",
+                    "name": "Javadoc tool",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Volatile variable",
-                    "isAnswer": false
+                    "name": "javah command",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Immutable variable",
+                    "name": "javaw command",
                     "isAnswer": false
                 }
             ],

@@ -113,29 +113,25 @@
         },
         {
             "id": 1013,
-            "name": "The three statements are given below about DataSet and DataReader, choose the correct option according to the statement.
-
-Statement 1: DataSet Provides Disconnected environment but DataReader provides Connected environment.
-Statement 2: DataSet Provides Connected environment but DataReader provides Disconnected environment.
-Statement 3: DataSet Can store multiple table simultaneously but DataReader Supports a single table based on a single SQL query.",
+            "name": "Choose the form in which Postback occur",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Statement 1 and 3 is correct.",
+                    "name": "Webforms",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Statement 2 and 3 is correct.",
+                    "name": "HTMLForms",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Statement 1 and 2 is correct.",
+                    "name": "Winforms",
                     "isAnswer": false
                 },
                 {
@@ -153,43 +149,32 @@ Statement 3: DataSet Can store multiple table simultaneously but DataReader Supp
         },
         {
             "id": 1014,
-            "name": "The following group profile properties defined under a group name in Web.config file. How will you access Street and City property?
-
-<properties>
-<group name="Address">
-<add name="Street" />
-<add name="City" />
-</group>
-</properties>",
+            "name": "Web.config file is used",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "- Profile.name.Street
- - Profile.name.City",
+                    "name": "Configures the time that the server-side codebehind module is called",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "- Address.Street
- - Address.City",
-                    "isAnswer": false
+                    "name":"To store the global information and variable definitions for the application",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "- Address.Street.name
- - Address.City.name",
+                    "name": "To configure the web server",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "-Profile.Address.Street
- - Profile.Address.City",
-                    "isAnswer": true
+                    "name": "To configure the web browser",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
